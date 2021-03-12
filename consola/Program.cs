@@ -17,6 +17,10 @@ namespace consola
                 aux += fib;
                 fib = aux + fib;
             }
+
+            int edad;
+            edad = 18;
+            edad++;
         }
     }
 }
