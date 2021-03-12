@@ -23,6 +23,14 @@ namespace consola
             edad++;
 
             Console.WriteLine("La edad es: " + edad);
+            if (edad >= 18)
+            {
+                Console.WriteLine("Es mayor de edad");
+            }
+            else {
+                Console.WriteLine("es menor de edad");
+            } 
+            Console.WriteLine("El resultado fibonacci es: "+fib); 
         }
     }
 }
