@@ -21,6 +21,8 @@ namespace consola
             int edad;
             edad = 18;
             edad++;
+
+            Console.WriteLine("La edad es: " + edad);
         }
     }
 }
